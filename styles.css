@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kumbh Sans", sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color:black;
+    z-index: 1000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+    position:fixed;
+}
+
+#navbar-logo {
+    color: #0ce48d;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar__menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: white;
+    text-decoration: none;
+    height: 100%;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navbar__links:hover {
+    color: #0ce48d;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Hero CSS */
+.hero {
+    background-color: #141414;
+
+}
+
+.hero__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 60vh;
+    padding: 0 50px;
+    max-width: 1200px;
+   
+}
+
+.hero__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.hero__image img {
+    max-width: 100%;
+    max-height: 60vh;
+    width: auto;
+    height: auto;
+    display:block;
+}
+.hero__content {
+    color: white;
+    text-align: left;
+}
+
+.hero__content h1 {
+    font-size: 4rem;
+}
+
+.hero__content p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+/* Why Choose Us Features Section */
+.why-choose-us {
+    background-color: #0ce48d;
+    padding: 50px 20px;
+    text-align: center;
+}
+.why-choose-us h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.why-choose-us .intro-text {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.features.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 150px;
+}
+
+.features-item {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
