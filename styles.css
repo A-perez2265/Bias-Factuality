@@ -53,7 +53,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-/* Hero CSS */
+/* Hero CSS  */
 .hero {
     background-color: #141414;
 
@@ -78,11 +78,12 @@ body {
 }
 .hero__image img {
     max-width: 100%;
-    max-height: 60vh;
+    max-height: 80vh;
     width: auto;
     height: auto;
     display:block;
 }
+
 .hero__content {
     color: white;
     text-align: left;
