@@ -1,4 +1,4 @@
-const API_KEY = 'API-KEY'; // Replace with your actual API key
+const API_KEY = ''; // Replace with your actual API key
 
 document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('generateBtn');
