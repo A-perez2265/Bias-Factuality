@@ -1,4 +1,4 @@
-const API_KEY = 'your_api_key_here'; // Replace with your actual API key
+const API_KEY = 'API-KEY'; // Replace with your actual API key
 
 document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('generateBtn');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         output.textContent = 'Generating...';
 
         try {
-            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=${API_KEY}`,  {
+            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`,  {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
