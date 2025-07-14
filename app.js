@@ -7,6 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     button.addEventListener('click', async () => {
         const prompt = promptInput.value.trim();
+        const fullPrompt = `You are a fact-checking assistant. Analyze the following text for:
+1. Factual accuracy
+2. Political or emotional bias
+3. Emotional tone
+
+Provide clear and concise results under each category.
+
+Text to analyze:"${prompt}"
+`;
         if (!prompt) {
             output.textContent = 'Please enter a prompt.';
             return;
@@ -25,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         {
                             parts:[
                                 {
-                                    text: prompt    
+                                    text: fullPrompt    
                                 }
                             ]
                         }
