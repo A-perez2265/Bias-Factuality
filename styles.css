@@ -232,3 +232,29 @@ body {
     text-align: left;
     white-space: pre-wrap;
 }
+
+main {
+    padding-top: 80px;
+    background-color: #141414;
+    min-height: 100vh;
+}
+
+.about h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.about{
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    line-height: 1.5;
+}
+
