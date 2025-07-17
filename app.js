@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 2. Political or emotional bias
 3. Emotional tone
 
-Provide clear and concise results under each category.
+Provide clear and concise results under each category. And keep the reponse under 200 words.
 
 Text to analyze:"${prompt}"
 `;
