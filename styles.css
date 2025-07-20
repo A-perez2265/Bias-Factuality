@@ -260,28 +260,43 @@ body {
 }
 /*  about section */
 
-
-main {
-    padding-top: 80px;
-    background-color: #141414;
+.about-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
+    background-color: #141414;
+    padding: 2rem;
 }
 
-.about h1{
-    color: white;
-    text-align: center;
-    font-size: 4rem;
-    margin-bottom: 20px;
-}
-
-.about{
-    color: white;
-    text-align: center;
-    font-size: 1.2rem;
+.about_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.05);
-    max-width: 800px;
-    line-height: 1.5;
+    padding: 2rem;
+    flex-wrap: wrap;
 }
+
+.about_image{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.about_image svg{ 
+    color: #0ce48d;
+}
+
+.about_text{
+    color: white;
+    font-size: 1.2rem;
+    max-width: 600px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
