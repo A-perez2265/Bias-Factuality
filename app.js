@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 2. Political or emotional bias
 3. Emotional tone
 
-Provide clear and concise results under each category. And keep the reponse under 200 words.
+Provide clear and concise results under each category. And keep the response under 200 words.
 
 Text to analyze:"${prompt}"
 `;
@@ -38,9 +38,15 @@ Text to analyze:"${prompt}"
                                 }
                             ]
                         }
+                    ],
+                    tools: [
+                        {
+                        googleSearch: {}
+                        }
                     ]
                 })
             });
+        
 
             if (!response.ok) {
                 throw new Error('Network response was not ok');
